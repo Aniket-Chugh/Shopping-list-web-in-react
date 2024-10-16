@@ -1,0 +1,70 @@
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 50vh;
+    padding: 42px;
+    background: #fff;
+    border: 6px solid #000;
+    box-shadow: 12px 12px 0 #000;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: scroll;
+  }
+
+  .card:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 17px 17px 0 purple;
+
+  }
+
+.Input-container{
+    display: flex;
+gap: 7px;
+width: 100%;
+align-items: center;
+}
+
+
+input{
+    padding: 10px;
+    border: 3px solid #000;
+    font-size: 16px;
+    font-family: inherit;
+    transition: transform 0.3s;
+    width: calc(100% - 26px);
+
+}
+
+input:focus
+{
+    outline: none;
+    transform: scale(1.05);
+    background-color: #000;
+    color: #ffffff;
+
+}
+
+button{
+    border: 3px solid #000;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover{
+    background-color:blueviolet
+}
+
+.DeleteBtn{
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
